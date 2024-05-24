@@ -39,3 +39,38 @@ export const Experience = [
     ],
   },
 ];
+export const Projects = [
+  {
+    img: "EndlessRaven.png",
+    name: "Portfolio Website For Dev Team",
+    description:
+      "Developed a portfolio website for a development team using the MERN stack, incorporating private routing, cookies management, secure authentication, and an admin panel. This project showcases team projects, skills, and achievements effectively.",
+    technologies: [
+      "React.js",
+      "Node.js",
+      "MongoDb",
+      "Express.js",
+      "ReduxToolKit",
+    ],
+  },
+  {
+    img: "https://cdn.dribbble.com/users/3745465/screenshots/14066363/media/f6897a21464f69a586e73f2fb4cb6683.png",
+    name: "RealTime Chat app React and Firebase",
+    description:
+      "Created a real-time chat application enabling instant messaging and seamless communication. Implemented features include user authentication, private and group chats, and real-time notifications.",
+    technologies: ["React.js", "Firebase", "Tailwind Css"],
+  },
+  {
+    img: "https://th.bing.com/th/id/R.4072dfe37b2a8ba5e0b421c8982c4f30?rik=gvHq194kJoGzRQ&pid=ImgRaw&r=0",
+    name: "E-Commerce website for a hotel",
+    description:
+      "Developed an e-commerce website for a hotel and restaurant, featuring online booking, menu ordering, secure payment processing, and user reviews. Enhanced customer experience with real-time availability updates and personalized service options.",
+    technologies: [
+      "React.js",
+      "Node.js",
+      "MongoDb",
+      "Express.js",
+      "Tailwind Css",
+    ],
+  },
+];
