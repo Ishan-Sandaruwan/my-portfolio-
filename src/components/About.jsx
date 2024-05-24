@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const container = (xval) => ({
   hidden: { x: xval, opacity: 0 },
-  visible: { x: 0, opacity: 1, transition: { duration: 0.6, delay: 0.6 } },
+  visible: { x: 0, opacity: 1, transition: { duration: 0.6, delay: 0.4 } },
 });
 
 const About = () => {
