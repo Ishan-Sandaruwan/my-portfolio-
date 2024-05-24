@@ -5,7 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-auto fixed top-0 left-0 px-8 lg:px-16 z-50 backdrop-blur-2xl mb-12 flex items-center justify-between py-6">
+    <div className="w-full h-auto fixed top-0 left-0 px-8 lg:px-16 z-50 backdrop-blur-2xl flex items-center justify-between py-6">
       <div className="text-4xl hover:scale-110 transition-all cursor-pointer">
         <a href="/#hero" className="logo-animation"> Is</a>
       </div>
