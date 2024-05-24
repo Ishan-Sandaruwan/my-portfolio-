@@ -1,0 +1,20 @@
+.logo-animation {
+    background: linear-gradient(90deg, #ffffff, #00ffff, #ffffff);
+    background-size: 300% 100%;
+    animation: moveBg 5s linear infinite;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Moving background effect */
+  @keyframes moveBg {
+    0% {
+      background-position: 0% 100%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+  }

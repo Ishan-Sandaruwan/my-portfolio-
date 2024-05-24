@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-700 pb-4 lg:mb-36">
+    <div className="border-b border-neutral-700 pb-4 " id="hero">
       <div className="flex flex-wrap items-center">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8 ">
-          <div className="flex justify-center ">
+          <div className="flex justify-center shadow-md shadow-purple-950">
             <img src="./profile.jpeg" alt="Ishan Sandaruwan" className=" object-cover brightness-50 hover:brightness-100 transition-colors cursor-pointer" />
           </div>
         </div>
