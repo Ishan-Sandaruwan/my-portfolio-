@@ -1,8 +1,47 @@
-# React + Vite
+# React Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my React portfolio website! This project showcases my work and skills using modern web technologies like React, Framer Motion, and Tailwind CSS.
 
-Currently, two official plugins are available:
+![Demo](https://your-demo-image-url.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **Responsive Design**: The website is fully responsive and looks great on all devices.
+- **Smooth Animations**: Powered by Framer Motion, the website features smooth and visually appealing animations.
+- **Customizable**: Easily customizable with Tailwind CSS utility classes.
+- **Modern UI**: Clean and modern user interface design.
+
+## Installation
+
+To get started with this project, follow these steps:
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/react-portfolio.git
+    ```
+
+2. **Navigate to the project directory**:
+    ```bash
+    cd react-portfolio
+    ```
+
+3. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+To start the development server, run:
+```bash
+npm start
