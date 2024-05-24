@@ -23,14 +23,12 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="w-full lg:w-1/2 lg:p-8 mb-20 lg:mb-0 " >
-          <div className="w-full h-full flex justify-center items-center ">
-            <img
-              src="./profile.jpeg"
-              alt="Ishan Sandaruwan"
-              className="h-[65vh] rounded-2xl object-cover brightness-50 hover:brightness-100 transition-colors cursor-pointer shadow-lg shadow-purple-950"
-            />
-          </div>
+        <div className="w-full lg:w-1/2 h-screen lg:h-full lg:p-8 flex justify-center items-center">
+          <img
+            src="./profile.jpeg"
+            alt="Ishan Sandaruwan"
+            className="h-[65vh] rounded-2xl object-cover brightness-50 hover:brightness-100 transition-colors cursor-pointer shadow-lg shadow-purple-950"
+          />
         </div>
       </div>
     </div>
