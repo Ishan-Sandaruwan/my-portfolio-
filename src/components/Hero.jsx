@@ -18,7 +18,7 @@ const Hero = () => {
             variants={container(0)}
             initial="hidden"
             animate="visible"
-            className="pt-28 md:pt-0 pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl xl:text-8xl"
+            className="pt-28 md:pt-0 pb-8 md:pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl xl:text-8xl"
           >
             Ishan Sandaruwan
           </motion.h1>
@@ -34,7 +34,7 @@ const Hero = () => {
             variants={container(1.2)}
             initial="hidden"
             animate="visible"
-            className="lg:pt-6 pt-16 my-2 max-w-xl py-6 font-light tracking-tighter"
+            className="lg:pt-6 pt-8 md:pt-16 my-2 max-w-xl py-6 font-light tracking-tighter"
           >
             Hi, I'm Ishan Sandaruwan, a passionate Full Stack Developer with a
             talent for crafting dynamic and responsive web applications. With a
