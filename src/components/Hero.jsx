@@ -18,7 +18,7 @@ const Hero = () => {
             variants={container(0)}
             initial="hidden"
             animate="visible"
-            className="pt-20 md:pt-0 pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl xl:text-8xl"
+            className="pt-28 md:pt-0 pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl xl:text-8xl"
           >
             Ishan Sandaruwan
           </motion.h1>
