@@ -23,7 +23,7 @@ const Technologies = () => {
   return (
     <div
       className="border-b border-neutral-700 w-full flex flex-col justify-center items-center"
-      id="hero"
+      id="tech"
     >
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}

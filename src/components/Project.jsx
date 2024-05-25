@@ -9,7 +9,7 @@ const container = (x, delay) => ({
 
 const Project = () => {
   return (
-    <div className=" border-b border-neutral-700 w-full  pb-20 lg:pb-0">
+    <div className=" border-b border-neutral-700 w-full  pb-20 lg:pb-0" id="pro">
       <motion.h3
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -52,7 +52,7 @@ const Project = () => {
               </p>
               <div className="flex flex-wrap">
                 {project.technologies.map((tech, index) => (
-                  <span className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-600">
+                  <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-600">
                     {tech}
                   </span>
                 ))}

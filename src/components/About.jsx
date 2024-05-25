@@ -8,7 +8,7 @@ const container = (xval) => ({
 
 const About = () => {
   return (
-    <div className="border-b border-neutral-700 lg:h-screen w-full flex justify-center items-center pb-20 lg:pb-0">
+    <div id="about" className="border-b border-neutral-700 lg:h-screen w-full flex justify-center items-center pb-20 lg:pb-0">
       <div className="flex lg:flex-wrap flex-wrap-reverse items-center pt-20 lg:pt-0">
         <motion.div
           variants={container(-100)}

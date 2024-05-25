@@ -9,7 +9,7 @@ const container = (x, delay) => ({
 
 const Experience = () => {
   return (
-    <div className=" border-b border-neutral-700 w-full  pb-20 lg:pb-0">
+    <div className=" border-b border-neutral-700 w-full  pb-20 lg:pb-0" id="exp">
       <motion.h3
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -44,7 +44,7 @@ const Experience = () => {
               <p className="mb-4 text-neutral-400">{exp.description}</p>
               <div className="flex flex-wrap">
                 {exp.technologies.map((tech, index) => (
-                  <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500">
+                  <span key={index} className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500">
                     {tech}
                   </span>
                 ))}
