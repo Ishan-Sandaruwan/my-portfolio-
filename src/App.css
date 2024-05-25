@@ -1,20 +1,41 @@
 .logo-animation {
-    background: linear-gradient(90deg, #ffffff, #00ffff, #ffffff);
-    background-size: 300% 100%;
-    animation: moveBg 5s linear infinite;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #ffffff, #00ffff, #ffffff);
+  background-size: 300% 100%;
+  animation: moveBg 5s linear infinite;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Moving background effect */
+@keyframes moveBg {
+  0% {
+    background-position: 0% 100%;
   }
-  
-  /* Moving background effect */
-  @keyframes moveBg {
-    0% {
-      background-position: 0% 100%;
-    }
-    50% {
-      background-position: 100% 100%;
-    }
-    100%{
-        background-position: 0% 100%;
-    }
+  50% {
+    background-position: 100% 100%;
   }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+.anim {
+  animation: wiggle 1s ease infinite;
+}
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Cursor, Typewriter } from "react-simple-typewriter";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -28,7 +29,21 @@ const Hero = () => {
             animate="visible"
             className="text-2xl bg-gradient-to-tr from-pink-300 via-slate-400 to-purple-500 bg-clip-text tracking-tight text-transparent "
           >
-            Full Stack Developer
+            <Typewriter
+              words={[
+                "Fullstack Developer",
+                "Mobile Developer",
+                "Frontend Developer",
+                "Backend Developer",
+                "Quality Assurance Engineer",
+                "Web Developer",
+              ]}
+              loop={true}
+              typeSpeed={100}
+              deleteSpeed={100}
+              delaySpeed={1000}
+            />
+            <Cursor />
           </motion.span>
           <motion.p
             variants={container(1.2)}
@@ -46,9 +61,9 @@ const Hero = () => {
 
         <div className="w-full lg:w-1/2 lg:h-full lg:p-8 ">
           <motion.img
-            initial={{x:100 , opacity:0}}
-            animate={{x:0,opacity:1}}
-            transition={{duration:1,delay:1.5}}
+            initial={{ x: 100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1, delay: 1.5 }}
             src="./profile.jpeg"
             alt="Ishan Sandaruwan"
             className="h-[65vh] rounded-2xl object-cover brightness-50 hover:brightness-100 transition-colors cursor-pointer shadow-lg shadow-purple-950 mx-auto"

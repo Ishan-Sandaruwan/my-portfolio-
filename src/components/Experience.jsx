@@ -23,7 +23,7 @@ const Experience = () => {
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               key={index}
-              variants={container(-100, index/2)}
+              variants={container(-100, index / 2)}
               initial="hidden"
               whileInView="visible"
               className="w-full lg:w-1/4"
@@ -32,7 +32,7 @@ const Experience = () => {
             </motion.div>
             <motion.div
               key={index}
-              variants={container(100, index/2)}
+              variants={container(100, index / 2)}
               initial="hidden"
               whileInView="visible"
               className="w-full max-w-xl lg:w-3/4"
@@ -42,11 +42,13 @@ const Experience = () => {
                 <span className="text-sm text-purple-100">{exp.company}</span>
               </h6>
               <p className="mb-4 text-neutral-400">{exp.description}</p>
-              {exp.technologies.map((tech, index) => (
-                <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500">
-                  {tech}
-                </span>
-              ))}
+              <div className="flex flex-wrap">
+                {exp.technologies.map((tech, index) => (
+                  <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500">
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </motion.div>
           </div>
         ))}
